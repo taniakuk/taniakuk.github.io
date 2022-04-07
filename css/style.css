@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgb(37, 19, 141);
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body{
+    background-color: rgba(140, 0, 255, 0.705);
+    background: url(../images/sky.jpg) no-repeat;
+    background-size: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container{
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+h1{
+    color: #fff;
+    margin-top: 50px;
+    font-size: 42px;
+}
+.select{
+    font-size: 24px;
+    margin: 50px;
+}
+.wrap{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+}
+#city {
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.featured{
+    display: flex;
+}
+.city-name {
+    width: 100%;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+ .deg, .features {
+    width: 50%;
+}
+.deg {
+    font-size:48px;
+    display: flex;
+    margin: auto;
+    justify-content: flex-end;
+}
+.features{
+    text-align: left;
+}
+ .disclaimer{
+    width: 100%;
+} 
+.item-1 {
+width: 60%;
+    font-size: 20px;
+}
+
+.item-2{
+    width: 40%;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+
+@media (max-width: 900px) {
+    .container{
+        max-width: 80%;
+    }
+
+    h1{
+    margin-top: 30px;
+    font-size: 36px;
+}
+.item-1, .item-2{
+    width: 100%;
+} 
+.item-2{
+    text-align: center;
+    padding:20px;
+}
+.select{
+    font-size: 20px;
+    margin: 50px 50px;
+}
+.city-name {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.deg {
+    font-size:40px;
+}
+.item-2{
+    font-size: 20px;
+}
+}
+
+@media (max-width: 600px) {
+     h1{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.city-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.deg {
+    font-size:36px;
+}
+
+}
