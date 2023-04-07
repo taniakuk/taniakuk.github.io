@@ -4630,10 +4630,15 @@ img {
   display: block;
 }
 .latests-post__description {
+  display: block;
+  text-decoration: none;
   font-size: 17px;
   font-weight: 500;
   line-height: 23px;
   margin-bottom: 15px;
+}
+.latests-post__description:hover {
+  cursor: url("../assets/icons-blog/dark-cursor.svg"), pointer;
 }
 .latests-post__statistic {
   transform: translate(0, 6px);

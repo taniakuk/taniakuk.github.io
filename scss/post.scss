@@ -241,10 +241,15 @@
     }
 
     &__description {
+        display: block;
+        text-decoration: none;
         font-size: $fsz4;
         font-weight: $fw3;
         line-height: 23px;
         margin-bottom: 15px;
+        &:hover{
+            cursor: $dark-cursor;
+        }
     }
 
     &__statistic {
