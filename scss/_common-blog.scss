@@ -129,7 +129,7 @@ img {
     &__logo{
         font-weight: $fw1;
         font-size: $fsz4;
-        transform: translate(55px, -1px); 
+        transform: translate(5px, 0); 
     }
 }
 .copyright{
@@ -150,11 +150,9 @@ img {
     height: 77px;
     align-items: center;
 }
-.social-networks{
+.social-links{
     display: flex;
-    gap: 15px;
-    width: 200px;
-    height: 30px;
+    gap: 27px;
     &__link{
         display: block;
         height: 23px;
@@ -165,9 +163,6 @@ img {
         &:active{
             cursor: $dark-cursor;
         }
-    }
-    .dribbble{
-        transform: translate(7px, 0);
     }
 }
 .statistic{

@@ -4309,7 +4309,7 @@ img {
 .footer__logo {
   font-weight: 700;
   font-size: 17px;
-  transform: translate(55px, -1px);
+  transform: translate(5px, 0);
 }
 
 .copyright {
@@ -4344,25 +4344,20 @@ img {
   align-items: center;
 }
 
-.social-networks {
+.social-links {
   display: flex;
-  gap: 15px;
-  width: 200px;
-  height: 30px;
+  gap: 27px;
 }
-.social-networks__link {
+.social-links__link {
   display: block;
   height: 23px;
   width: 26px;
 }
-.social-networks__link:hover {
+.social-links__link:hover {
   cursor: url("../assets/icons-blog/dark-cursor.svg"), pointer;
 }
-.social-networks__link:active {
+.social-links__link:active {
   cursor: url("../assets/icons-blog/dark-cursor.svg"), pointer;
-}
-.social-networks .dribbble {
-  transform: translate(7px, 0);
 }
 
 .statistic__date {

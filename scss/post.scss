@@ -77,18 +77,9 @@
         transform: translate(7px, -4px);
         display: inline-block;
     }
-
-    &__social-networks {
-        transform: translate(-20px, -1px);
-        width: 107px;
-        .instagram{
-            transform: translate(17px, 0);
-        }
-        .dribbble {
-            transform: translate(4px, 0);
-        }
+    &__links-wrap{
+        transform: translate(-10px, 0);
     }
-
     &__grey-line {
         background: $grey-line-color;
         width: 660px;
@@ -98,7 +89,6 @@
 
     &__review-wrap {
         position: relative;
-
         .custom-border {
             position: absolute;
             top: -30px;
