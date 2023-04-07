@@ -78,7 +78,8 @@
         display: inline-block;
     }
     &__links-wrap{
-        transform: translate(-10px, 0);
+        transform: translate(-6px, 0);
+        gap: 30px;
     }
     &__grey-line {
         background: $grey-line-color;

@@ -4340,12 +4340,7 @@ img {
 
 .social-links {
   display: flex;
-  gap: 27px;
-}
-.social-links__link {
-  display: block;
-  height: 23px;
-  width: 26px;
+  gap: 26px;
 }
 .social-links__link:hover {
   cursor: url("../assets/icons-blog/dark-cursor.svg"), pointer;
@@ -4498,7 +4493,8 @@ img {
   display: inline-block;
 }
 .article__links-wrap {
-  transform: translate(-10px, 0);
+  transform: translate(-6px, 0);
+  gap: 30px;
 }
 .article__grey-line {
   background: #dddddd;

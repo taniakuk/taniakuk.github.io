@@ -128,10 +128,15 @@
 .portfolio{
     width: 360px;
     height: 244px;
-    display: flex;
-    &__text{
-        margin: auto;
-        transform: translate(0, 5px);
+    border-radius: 5px;
+    &__text-block{
+        padding-top: 101px;
+        height: 243px;
+        border-radius: 5px;
+        &:hover{
+            background-color: #35353521;
+            box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.4);
+        }
     }
     &__title{
         color: $portfolio-text-color;
@@ -319,7 +324,7 @@
         }
     }
     &__social{
-        transform: translate(0, 2px);
+        transform: translate(0, 6px);
     }
     &__title{
         margin: 40px 0;

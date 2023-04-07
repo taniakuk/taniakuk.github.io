@@ -152,11 +152,8 @@ img {
 }
 .social-links{
     display: flex;
-    gap: 27px;
+    gap: 26px;
     &__link{
-        display: block;
-        height: 23px;
-        width: 26px;
         &:hover{
             cursor: $dark-cursor;
         }
