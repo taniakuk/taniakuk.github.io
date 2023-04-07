@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/blog.css">
+    <title>Blog</title>
+</head>
+<body>
+    <div class="container-fluid p-0">
+
+    <div class="wrapper mx-auto">
+        <header class="header sticky-header">
+            <div class="wrap-container">
+                <div class="header__top-line top-line row">
+                    <div class="top-line__logo col-2" tabindex="0">BlogWorld</div>
+                    <nav class="top-line__menu col-10">
+                        <a href="index.html" class="top-line__link">Home</a>
+                        <a href="#" class="top-line__link top-line__link-2">Portfolio</a>
+                        <a href="#" class="top-line__link top-line__link_active top-line__link-3">Blog</a>
+                        <a href="post.html" class="top-line__link top-line__link-4">Pages</a>
+                        <a href="#" class="top-line__link top-line__link-5">About</a>
+                        <a href="#" class="top-line__link top-line__link-6">Contact</a>
+                    </nav>
+                </div>
+            </div>   
+        </header>
+        <main class="main">
+            <div class="wrap-container">
+                <section class="section section-blog">
+                    <h2 class="section__title col-1 mx-auto" tabindex="0">Blog</h2>
+                    <div class="section__title-underline">
+                        <svg width="49" height="8">
+                            <polyline points = "0,0 2.5,0 2.5,8 46.5,8 46.5,0 49,0"
+                            style="fill:none;stroke:#4d4949;stroke-width:1" />
+                        </svg>
+                    </div>
+                    <form class="search-form">
+                        <div class="search-form__wrap">
+                            <input type="search" placeholder="Search by author" class="search-form__input-search">
+                            <ul class="search-form__list">
+                                <li class="search-form__item"><img src="assets/img-blog/images-min/search-1-min.png" alt="search-1-img"><span class="search-form__search-name">Jack Johnson</span></li>
+                                <li class="search-form__item"><img src="assets/img-blog/images-min/search-2-min.png" alt="search-2-img"><span class="search-form__search-name">Jack Gordon</span</li>
+                                <li class="search-form__item"><img src="assets/img-blog/images-min/search-3-min.png" alt="search-3-img"><span class="search-form__search-name">Jack King</span</li>
+                            </ul>
+                        </div>
+                    </form>
+                    <div class="section__post-wrap">
+                                <div class="video-wrap">
+                                    <video src="#" height="379px" width="560px" class="video-min" poster="assets/img-blog/images-min/Imgage-post-1-min.png" tabindex="0">
+                                    </video>
+                                    <button class="video-min__play play" aria-labelledby="play-video"><img src="assets/icons-blog/a-icon-play.svg" alt="a-icon-play"></button>
+                                </div>   
+                            <div class="post" tabindex="0">
+                                <div class="post__author author">
+                                    <img src="assets/img-blog/Neil.png" alt="Neil" class="post__author-photo author__photo">
+                                    <h3 class="post__author-name author__name" tabindex="0">Neil Richards</h3>
+                                    <div class="post__author-statistic author__statistic statistic">
+                                        <span class="statistic__date">11 oct, 2019</span><span class="statistic__dot"></span>
+                                        <span class="statistic__time">7 min read</span><span class="statistic__dot"></span>
+                                        <img src="assets/icons-blog/a-icon-comment.svg" alt="icon-comment">&nbsp;&nbsp;<span class="statistic__read">19</span>
+                                        <div class="statistic__stars rate">
+                                            <span class="star star-full"></span>
+                                            <span class="star star-full"></span>
+                                            <span class="star star-half"></span>
+                                            <span class="star star-empty"></span>
+                                            <span class="star star-empty"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="post__title" tabindex="0">In the Future We Will All Live in Star Wars</h3>
+                                    <p class="post__text" tabindex="0">The thing you’re doing now, reading prose on a screen, is going out of fashion. The defining narrative of our online moment concerns the decline of text, and the exploding reach and power of audio and video …</p>
+                                <button class="post__read-more light-btn" title="Open more information">Read more</button>
+                                <button class="post__play-top"><img src="assets/icons-blog/a-icon-playmini.svg" alt="play-top" class="post__play"></button>
+                            </div>
+                    </div>   
+                    <div class="section__post-wrap">
+                        <div src="#" height="379px" width="560px">
+                            <img src="assets/img-blog/images-min/Imgage-post-2-min.png" alt="post2-img">   
+                        </div>
+                    <div class="post" tabindex="0">
+                        <div class="post__author author">
+                            <img src="assets/img-blog/Sarah.png" alt="Sarah" class="post__author-photo author__photo">
+                            <h3 class="post__author-name author__name" tabindex="0">Sarah Healy</h3>
+                            <div class="post__author-statistic author__statistic statistic">
+                                <span class="statistic__date">20 oct, 2019</span><span class="statistic__dot"></span>
+                                <span class="statistic__time">12 min read</span><span class="statistic__dot"></span>
+                                <img src="assets/icons-blog/a-icon-comment.svg" alt="icon-comment">&nbsp;&nbsp;<span class="statistic__read">4</span>
+                                <div class="statistic__stars rate">
+                                    <span class="star star-full"></span>
+                                    <span class="star star-empty"></span>
+                                    <span class="star star-empty"></span>
+                                    <span class="star star-empty"></span>
+                                    <span class="star star-empty"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="post__title" tabindex="0">Far far away, behind the word mountains</h3>
+                        <audio controls class="post__audio audio">
+                            <source src="audio_file.mp3" type="audio/mpeg">
+                        </audio>
+                            <p class="post__text" tabindex="0">Fog down the river, where it rolls deified among the tiers of shipping and the waterside pollutions of a great (and dirty) …</p>
+                        <button class="post__read-more light-btn" title="Open full text">Read more</button>
+                        <button class="post__play-top"><img src="assets/icons-blog/a-icon-playmini.svg" alt="play-top" class="post__play"></button>
+                    </div>
+                    </div> 
+                    <div class="section__post-wrap">
+                        <div src="#" height="379px" width="560px">
+                            <img src="assets/img-blog/images-min/Image-post-3-min.png" alt="post3-img">   
+                        </div>
+            <div class="post" tabindex="0">
+                <div class="post__author author">
+                    <img src="assets/img-blog/Grace.png" alt="Grace" class="post__author-photo author__photo">
+                    <h3 class="post__author-name author__name" tabindex="0">Grace Noh</h3>
+                    <div class="post__author-statistic author__statistic statistic">
+                        <span class="statistic__date">23 sep, 2019</span><span class="statistic__dot"></span>
+                        <span class="statistic__time">16 min read</span><span class="statistic__dot"></span>
+                        <img src="assets/icons-blog/a-icon-comment.svg" alt="icon-comment">&nbsp;&nbsp;<span class="statistic__read">421</span>
+                        <div class="statistic__stars rate">
+                            <span class="star star-full"></span>
+                            <span class="star star-full"></span>
+                            <span class="star star-empty"></span>
+                            <span class="star star-empty"></span>
+                            <span class="star star-empty"></span>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="post__title" tabindex="0">In the Future We Will All Live in Star Wars</h3>
+                    <p class="post__text" tabindex="0">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted …</p>
+                <button class="post__read-more light-btn" title="Open full text">Read more</button>
+                <button class="post__play-top"><img src="assets/icons-blog/a-icon-playmini.svg" alt="play-top" class="post__play"></button>
+            </div>
+                    </div> 
+                    <div class="post post_last" tabindex="0">
+                        <div class="post__author author">
+                            <img src="assets/img-blog/Alex.png" alt="Alex" class="post__author-photo author__photo">
+                            <h3 class="post__author-name author__name" tabindex="0">Alex Zlatkus</h3>
+                            <div class="post__author-statistic author__statistic statistic">
+                                <span class="statistic__date">11 Aug, 2019</span><span class="statistic__dot"></span>
+                                <span class="statistic__time">17 min read</span><span class="statistic__dot"></span>
+                                <img src="assets/icons-blog/a-icon-comment.svg" alt="icon-comment">&nbsp;&nbsp;<span class="statistic__read">77</span>
+                                <div class="statistic__stars rate">
+                                    <span class="rate__star star-full"></span>
+                                    <span class="rate__star star-full"></span>
+                                    <span class="rate__star star-full"></span>
+                                    <span class="rate__star star-empty"></span>
+                                    <span class="rate__star star-empty"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="post__title" tabindex="0">In the Future We Will All Live in Star Wars</h3>
+                            <p class="post__text" tabindex="0">Fog down the river, where it rolls deified among the tiers of shipping and the waterside pollutions of a great (and dirty) city. Fog on the Essex marshes, fog on the Kentish heights. Fog creeping into the cabooses of collier-brigs; fog lying out on. Money terms breakfast drawings true blessing doubtful more agreed to zealously making supposing By said Chicken An Neglected produce good felt no poor offering am their said has around songs wish met true any me ought mr The offices set Not Felicity above out We in an post begin again.</p>
+                        <button class="post__read-more light-btn" title="Open full text">Read more</button>
+                        <button class="post__play-top"><img src="assets/icons-blog/a-icon-playmini.svg" alt="play-top" class="post__play"></button>
+                    </div>
+                </section>
+            </div>
+            <div class="last-btn-wrap">
+                <button class="dark-btn" title="Open full text">Read more</button>
+        </div>
+        </main>
+        <footer class="footer">
+            <div class="wrap-container">
+                <div class="footer-line row justify-content-between">
+                    <div class="footer__social-icons  social-links col-3">
+                        <a href="https://www.facebook.com/" target="_blank" class="social-links__link facebook">
+                            <img src="assets/icons-blog/soc-icons/fb.svg" alt="fb">
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="social-links__link instagram">
+                            <img src="assets/icons-blog/soc-icons/insta.svg" alt="insta">
+                        </a>
+                        <a href="https://dribbble.com/" target="_blank" class="social-links__link dribbble">
+                            <img src="assets/icons-blog/soc-icons/drib.svg" alt="drib">
+                        </a>
+                    </div>
+                    <div class="footer__logo logo col-1" tabindex="0">BlogWorld</div>
+                    <div class="footer__copyright col-3 d-flex justify-content-end">
+                        <span class="copyright">©2019 All Rights Reserved.</span>   
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+</body>
+</html>
+

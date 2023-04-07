@@ -1,0 +1,24 @@
+@import '_variables-blog', '_typography-blog';
+
+%btn-format{
+    display: block;
+    font-size: $fsz5;
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: 1px solid $btn-color;
+    &:hover{
+        cursor: $grey-cursor;
+    }
+}
+
+%nav-active-hover{
+    font-weight: $fw1;
+    border-bottom: 1px solid $text-color;
+}
+
+%slider-text-format{
+    font-size: $fsz5;
+        font-weight: $fw5;
+        color: $slider-quote-text;
+}
+
