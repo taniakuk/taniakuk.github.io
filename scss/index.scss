@@ -73,8 +73,7 @@
         &_iconset{
             transform: translate(4px, 18px);
         }
-    }
-    
+    }    
 }
 .item2{
     transform: scaleX(-1);
@@ -95,8 +94,7 @@
         &:hover{
             cursor: $grey-cursor;
         }
-    }
-    
+    }    
 }
 .post{
     height: 442px;
@@ -125,6 +123,7 @@
         margin-top: 23px;
     }
 }
+
 .portfolio{
     width: 360px;
     height: 244px;
@@ -133,9 +132,16 @@
         padding-top: 101px;
         height: 243px;
         border-radius: 5px;
+        position: relative;
         &:hover{
-            background-color: #35353521;
+            background-color: $portfolio-hover-bg;
             box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.4);
+            & .attach-search{
+                visibility: visible;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+            }
         }
     }
     &__title{
@@ -152,44 +158,29 @@
     }
     &:hover{
         cursor: $light-cursor;
-    }
-    &:hover + .attach-search{
-        visibility: visible;
-    }   
+    }  
 } 
-
 .attach-search{
     height: 60px;
     width: 101px;
     border-radius: 5px;
     background-color: $attach-search-color;
-    transform: translate(259px, -61px);
     display: flex;
     visibility: hidden;
     &__icons{
         margin: auto;
         display: flex;
         gap: 25px;
-    }
-    &:hover{
-        cursor: $light-cursor;
-        visibility: visible;
-    }
+    }  
 }
 .city-guide{
     transform: translate(-3px, 0);
-    &+.attach-search{
-        transform: translate(256px, -61px);;
-    }
 }
 .mountains{
     transform: translate(-5px, 0);
-    &+.attach-search{
-        transform: translate(255px, -61px);
-    }
 }
 .btns{
-    margin-top: -21px;
+    margin-top: 40px;
 }
 .btn-wrap{
     display: flex;

@@ -4558,10 +4558,17 @@ img {
   padding-top: 101px;
   height: 243px;
   border-radius: 5px;
+  position: relative;
 }
 .portfolio__text-block:hover {
   background-color: rgba(53, 53, 53, 0.1294117647);
   box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.4);
+}
+.portfolio__text-block:hover .attach-search {
+  visibility: visible;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 .portfolio__title {
   color: #ffffff;
@@ -4578,16 +4585,12 @@ img {
 .portfolio:hover {
   cursor: url("../assets/icons-blog/light-cursor.svg"), pointer;
 }
-.portfolio:hover + .attach-search {
-  visibility: visible;
-}
 
 .attach-search {
   height: 60px;
   width: 101px;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.5);
-  transform: translate(259px, -61px);
   display: flex;
   visibility: hidden;
 }
@@ -4596,27 +4599,17 @@ img {
   display: flex;
   gap: 25px;
 }
-.attach-search:hover {
-  cursor: url("../assets/icons-blog/light-cursor.svg"), pointer;
-  visibility: visible;
-}
 
 .city-guide {
   transform: translate(-3px, 0);
-}
-.city-guide + .attach-search {
-  transform: translate(256px, -61px);
 }
 
 .mountains {
   transform: translate(-5px, 0);
 }
-.mountains + .attach-search {
-  transform: translate(255px, -61px);
-}
 
 .btns {
-  margin-top: -21px;
+  margin-top: 40px;
 }
 
 .btn-wrap {
