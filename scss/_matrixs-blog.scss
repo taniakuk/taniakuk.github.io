@@ -1,0 +1,44 @@
+@import '_variables-blog';
+
+$portfolio:(
+    'art-ocean': $art-ocean-bg,
+    'city-guide': $city-guide-bg,
+    'mountains': $mountains-bg
+);
+@each $photo, $photo-name in $portfolio{
+    .#{$photo}{
+        background: $photo-name;
+    }
+}
+
+$review-authors:(
+    'jack': $jack-photo,
+    'emma': $emma-photo,
+    'ann': $ann-photo
+);
+@each $name, $photo in $review-authors{
+    .review_#{$name}::before{
+        content: '';
+        display: block;
+        position: absolute;
+        width: 82px;
+        height: 82px;
+        background: $photo no-repeat;
+        transform: translate(-116px, -12px);
+    }
+}
+
+$rate-stars:(
+    'star-full': $star-full,
+    'star-empty': $star-empty,
+    'star-half': $star-half
+);
+@each $star, $star-type in $rate-stars{
+    .#{$star}{
+        display: block;
+        width: 14px;
+        height: 14px;
+        background: $star-type;
+    }
+}
+
